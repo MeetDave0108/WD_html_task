@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="10px" cellspacing="10px">
+        <tr>
+            <td>Header column 1</td>
+            <td>Header column 2</td>
+            <td>Header column 3</td>
+            <td>Header column 4</td>
+        </tr>
+        <tr>
+            <td>ROW 2- Item 1</td>
+            <td>ROW 2- Item 2</td>
+            <td rowspan="2">ROW 2- Nested Table 1 <br> <br>
+                <table border="1" cellpadding="10px" cellspecing="0px">
+                    <tr>
+                        <td>ROW 1 Header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>ROW 2 Header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>ROW 3 Header</td>
+                        <td>iterm</td>
+                    </tr>
+                </table>
+            </td> 
+           
+            <td>ROW 2- Item 4 <br>A second line</td>
+        </tr>
+        <tr>
+            <td>ROW 3:Nested Table 2 <br> <br>
+            <table border="1" cellpadding="10px" cellspecing="0px">
+                <tr>
+                    <td>ROW 1 Header</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>ROW 2 Header</td>
+                    <td>item</td>
+                </tr>
+            </table>
+            </td>
+            <td>ROW 3-Item 2</td>
+            <td rowspan="2">ROW 3-Item 3
+            
+            </td>
+            <!-- <td>1</td> -->
+        </tr>
+        <tr>
+            <td>ROW 4-Item 1</td>
+            <td>ROW 4-Item 2</td>
+            <td>ROW 4-Item 3</td>
+            <!-- <td>1</td> -->
+        </tr>
+        <tr>
+            <td colspan="4">ROW 5-Last row of outer table</td>
+            <!-- <td>1</td> -->
+            <!-- <td>1</td> -->
+            <!-- <td>1</td> -->
+        </tr>
+    </table>
+</body>
+</html>
